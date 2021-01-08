@@ -1,0 +1,540 @@
+  /* media query for top nav */
+  @media (max-width:1300px){
+
+    .left-nav{
+        width: 65%;
+    }
+    .right-nav{
+        width: 35%;
+    }
+    .location{
+        width: 50%;
+        margin-left: 0;
+text-align: center;
+       }
+       .web{
+           width: 45%;
+       }
+           .firstli{
+               margin-left:0px;
+        border-left: none;
+           }
+       
+       
+       
+       /* thi is navbar right search section */
+       
+       #inputBox{
+
+        
+        right: 150px;
+         
+      }
+
+
+      .n1content{
+  padding-left: 20px;
+        max-width: 100%;
+        left: 0px;
+        
+      }
+/* this is section for detailform */
+
+.deatilform{
+  text-align: center;
+   }
+   .deatilform h3{ 
+    padding-right: 0px;
+    
+      justify-content: center;
+      text-align: center;
+    }
+        
+  
+  /* this is section for chief director */
+  
+  .authorcontent{
+    position: relative;
+    top: 10%;
+    padding-left: 10px;
+    
+  }
+  .imgauthor{
+    top: 10%;
+    
+  }
+  .chief_p{
+  padding-right: 0px;
+    padding-top: 0px;
+  } 
+  .aboutauthor{
+    padding-left: 10px;
+  
+  padding-right: 40px;
+  }
+  .imgquotebottom{
+    
+    padding-right: 0px;
+    top: 0px;
+  }
+  
+  
+  
+  }
+
+   
+   
+       @media (max-width:920px){
+           /* top nav section */
+           .left-nav{
+               width: 100%;
+
+           }
+           .right-nav{
+               width: 100%;
+               text-align: center;
+           }
+        
+      
+            .location{
+                width: 100%;
+                overflow: hidden;
+
+                
+            }
+            .txtalign{
+                text-align: center;
+                
+            }
+            .web{
+                width: 100%;
+                text-align: center;
+                
+                
+            } 
+            .right-nav{
+                margin-top: 60px;
+            }
+           /* thi is navbar right search section */
+       
+       #inputBox{
+
+        right: 100px;
+       top: 325px;
+         
+      }
+      .search-icon{
+     top: 0;
+        float: none;
+        padding-left: 36px;
+          
+      }
+      .botcentrul li {
+       
+       margin-left: 0px;
+      
+      
+    }
+
+
+
+
+    .name {
+      justify-content: center;
+      display: inline-block;
+      
+      margin-left: 0px;
+      padding-left: 0px;
+      
+    
+    }
+
+
+    .input-formname {
+      font-size: 15px;
+      
+  top: -15px;
+      }
+      
+  
+
+
+      .nameimg {
+        height: 40px;
+        background-color: white;
+        border-right: rgb(177, 167, 167) 1px solid;
+        padding: 5px;
+      
+      
+      }
+
+
+   
+  
+
+        }
+        
+        @media (max-width:600px){
+            .botcenternav{
+                display: none;
+            }
+            .left_icon{
+                visibility: visible;
+            }
+            .left_sidenav{
+              visibility: visible;}
+            .botrightnav{
+                width: 50%;
+            }
+            .botleftnav{
+                width: 50%;
+            }
+            .searchtxtarea{
+              width: 100%;
+              font-size: 20px;
+            }
+            #inputBox{
+
+              position: absolute;
+              top: 328px;
+              right: 0px;
+              left: 0;
+          
+            }
+          
+            /* .newsletter {
+                width: 70%;}
+                .usefull-links{
+                  width: 30%;
+                } */
+        }
+        @media (max-width:300px){
+         
+            /* top nav section */
+        .topnav{
+            font-size: 12px;
+            
+        }
+        .imgtopnav{
+            margin-left: 0;
+            font-size: 8px;
+        
+        }   
+        .socialicons li {
+           padding: 10px;
+            }
+          /* /* this is top log section  */
+          .toplogo{
+            height: 70px;
+            }
+   .imgtoplogo{
+       height: 60px; 
+   }
+
+/* thi is navbar right search section */
+
+   #inputBox{
+
+   top: 290px;
+}
+
+}
+
+@media(max-width:800px){
+  .leftside_content {
+    padding-left: 10%;
+  }
+  
+.rightinnercontent {
+    max-width: 100%;
+  }
+
+
+.cardsection h1{
+font-size: 1.4rem;
+}
+.cardsection p{
+  font-size: .9rem;
+}
+/* this is section for popular question */
+.number1andtxt{
+ font-size: .4rem;
+
+}
+.imghime{
+  
+  max-width: 4rem;
+  flex-wrap: wrap;
+  
+}
+.name {
+  padding: 0px;
+  height: 10px;
+  margin: 10px;
+ 
+
+}
+.appoint {
+  margin-right:0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+  .input-formname {
+    font-size: 12px;
+    top: -10.6px;
+    height: 30px;
+}
+.nameimg{
+  width: 30px;
+  height: 30px;
+}
+.address{
+  width: 50%;
+  padding-left: 50px;
+}
+.services{
+  width: 50%;
+}
+.usefull-links{
+  width: 30%;
+}
+.newsletter{
+  width: 70%;
+}
+
+}
+@media(max-width:650px){
+.rightinnercontent{
+  max-width: 100%;
+  margin: auto;
+  margin-top: 10%;
+  overflow: hidden;
+}
+ .leftside_content {
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.btnbgcontact{
+  top: 10px;
+}
+.bginnerdiv{
+  display: grid;
+}
+.leftsidedeading{
+  width: 100%;
+  
+}
+.leftside_content{
+ margin: auto;
+  
+}
+.leftsidedeading{
+ display: flex;
+}
+.rightsideform{
+  width: 100%;
+}
+
+/* <!-- this is who we are section picture and collaspe --> */
+
+.bottom_part{
+  display: grid;
+}
+.leftimg{
+  width: 100%;
+  padding-bottom: 40px;
+}
+.rightcollasible{
+  width: 100%;
+}
+.cardsection{
+  display: grid;
+ 
+  
+}
+.carone{
+  width: 100%;
+  overflow: hidden;
+}
+.cardtwo{
+  width: 100%;
+}
+.cardthree{
+  width: 100%;
+}
+.who_we_are{
+  height: 1100px;
+}
+
+
+
+/* this is section fot popular questions and our mission */
+.ourmission_population{
+display: grid;
+}
+.our_mission{
+  width: 100%;
+}
+.popularquestion{
+  width: 100%;
+}
+.align_mission{
+  width: 100%;
+  float: none;
+  padding-top: 5%;
+  text-align: center;
+ 
+  }
+  .pq_span{
+    padding-top: 5%;
+    text-align: center;
+
+  }
+ /* .n1content{
+        max-width: 63%;
+        left: 113px;
+        padding-right: 0;
+      } */
+
+  /* .number1andtxt{
+    text-align: center;
+  } */
+.mainsection_detail_author{
+  display: grid;
+  height: 1000px;
+  width: 100%;
+}
+.detail_appoint{
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.author{
+  width: 100%;
+  overflow: hidden;
+}
+
+}
+@media(max-width:400px){
+  .rightinnercontent{
+    font-size: .6rem;
+  }
+  .btnbgcontact{
+    /* display: block; */
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+   
+  }
+  .labelname{
+    font-size: .7rem;
+  }
+  .leftside_content h1{
+    font-size: 1.2rem;
+  }
+  .inputname{
+    height: 1.4rem;
+    font-size: .7rem;
+  }
+  .leftside_content p{
+    font-size: .8rem;
+  }
+  .phonelabel{
+   
+    font-size: .7rem;
+   display: flex;
+  }
+  .inputtel{
+    height: 1.4rem;
+    font-size: .7rem;
+    width: 100%;
+    top: -30px;
+    position: relative;
+  }
+  .repairlabel{
+    height: 1.4rem;
+    font-size: .7rem;
+    left: 0;
+    /* position: relative; */
+    /* font-size: 1rem; */
+    /* color: #3b3b3b; */
+    top: 40px;
+  }
+  .cars {
+    height: 1.4rem;
+    font-size: .7rem;
+    width: 100%;
+    /* height: 2rem; */
+    left: 0%;
+    /* position: relative; */
+    top: 6px;
+}
+.button {
+      font-size: 10px;
+      
+    }
+    .rightinnercontent{
+      margin: 0;
+      
+      margin-top: 10%;
+    }
+    .imgwho_we_are{
+      width: 200px;
+    }
+    .who_we_are{
+      height: 1300px;
+    overflow: hidden;
+    }
+     .n1content{
+        padding-right: 0;
+      }
+      .pq_span{
+        font-size: 1.2rem;
+      }
+      .number1andtxt{
+        font-size: .3rem;
+       
+      }
+      .downarrow::after{
+        font-size: .6rem;
+             }
+             .n1content{
+               font-size: .6rem;
+               padding-top: 10px;
+             }
+
+
+             .card p{
+              font-size: .5rem;
+            }.card h4{
+              font-size: .8rem;
+
+            }
+            .img-footer {
+ 
+              max-width: 150px;
+            }
+            /* <!-- this is who we are section picture and collaspe --> */
+            .input-subsribe {
+              font-size: 15px;
+              width: 150px;
+            }
+           
+          }
+          @media(max-width:500px){
+.address{
+  width: 100%;
+}
+.usefull-links{
+  width: 50%;
+}
+.newsletter{
+  
+  width: 100%;
+  
+}
+          }
+
+       
